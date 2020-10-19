@@ -1,0 +1,91 @@
+h1{
+    
+    color: slategray; 
+  font-size: 25px;
+}
+h2 {
+    color: tomato;
+    font-size: 20px;
+}
+h3{
+    color: gray;
+    font-size: 15px;
+}
+p{
+    
+    color: black;
+    font-size: 15px;
+}
+#info {
+margin-left: -40px;
+}
+#entete{
+    margin-left: 70px;
+}
+
+#add{
+    display: flex ;
+    justify-content: space-between;
+    width: 100%;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+#foto{
+    float: right;
+    margin-top: -170px;
+    margin-right: 150px;
+    border-radius:  50px 50px;
+    width: 100px;
+}
+#main{
+    margin-left: 70px;
+    width: 40%;
+}
+.date{
+      display: flex ;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+hr{
+    margin-left: -1px;
+    width: 450px;
+    border: brown 2px solid;
+}
+#compt{
+    float: right;
+    width: 40%;
+    margin-top: -1190px;
+    margin-right: 150px;
+}
+.border>span{
+    border: 1px solid gray;
+    border-collapse: separate;
+    border-radius: 6px 6px;
+    flex-wrap: wrap; 
+   justify-content: space-between;
+}
+.p{
+    border: 1px dashed gray; 
+    margin: 10px 0;
+}
+.cercle{
+   width: 10px;height: 10px;border-radius: 50%;
+   background: red;
+   float: right;
+   
+
+}
+.cer{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 10px;
+}
+.dec{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
